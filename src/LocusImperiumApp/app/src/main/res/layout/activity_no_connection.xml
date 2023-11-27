@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/noConnectionAct"
+    android:layout_height="match_parent"
+    tools:context=".NoConnectionActivity">
+
+
+
+    <TextView
+        android:id="@+id/noConnectionMsg"
+        android:layout_width="387dp"
+        android:layout_height="134dp"
+        android:layout_marginStart="104dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginEnd="104dp"
+        android:gravity="center"
+        android:text="@string/notConnected"
+        android:fontFamily="@font/poppins_medium"
+        android:textSize="24sp"
+        android:paddingHorizontal="20dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/reconnectButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="160dp"
+        android:layout_marginTop="26dp"
+        android:layout_marginEnd="160dp"
+        android:layout_marginBottom="245dp"
+        android:text="@string/ReconnectBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:fontFamily="@font/roboto_bold"
+        android:textSize="20sp"
+        android:paddingLeft="50dp"
+        android:paddingRight="50dp"
+        android:paddingVertical="15dp"
+        app:layout_constraintTop_toBottomOf="@+id/noConnectionMsg" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

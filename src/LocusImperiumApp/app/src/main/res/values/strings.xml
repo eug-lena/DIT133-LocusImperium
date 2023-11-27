@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Locus Imperium</string>
+    <string name="string">Save</string>
+    <string name = "notConnected">The app is not connected to the LocusImperium device</string>
+    <string name = "ReconnectBtn"> Reconnect</string>
+
+</resources>
