@@ -21,7 +21,7 @@
 
 # Links
 
-### [Wiki Page 📚](https://git.chalmers.se/courses/dit113/2023/group-6/group-6/-/wikis/home)
+### [Wiki Page 📚](https://github.com/eug-lena/DIT133-LocusImperium/wiki)
 
 ### [Showcase Video 📽️](https://www.youtube.com/watch?v=5KdoOFKNgRQ)
 
@@ -128,11 +128,11 @@ If you desire to host your own broker, a WiFi connection that supports MQTT is r
 
 1. Open your terminal and clone the repository.
    ```
-   git clone https://git.chalmers.se/courses/dit113/2023/group-6/group-6.git
+   git clone https://github.com/eug-lena/DIT133-LocusImperium.git
    ```
 2. Go to the installation repository.
     ```
-    cd group-6
+    cd DIT133-LocusImperium
     ```
 3. Connect the **WIO Terminal** and your **Android Device** to your computer with USB or USB Type C.
 4. Run the install script adequate for your operating system and follow the instructions.
